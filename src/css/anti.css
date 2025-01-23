@@ -1,0 +1,28 @@
+.win_anti{
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.win_anti .video{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+}
+.video video{
+width: 70%;
+}
+/* .win_anti img{
+    width: 100%;
+} */
+.pdf a{
+display: grid;
+grid-template-columns: 40px 1fr;
+gap: 10px;
+}

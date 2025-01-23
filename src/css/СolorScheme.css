@@ -1,0 +1,293 @@
+@charset "UTF-8";
+html[data-theme=light] {
+  --background-color: #F5F5F5;
+  --control-color: #fdfcff;
+  --block-color: #ffffff;
+  --item-color: #f15a24;
+  --color-font: #000;
+  --color-border: #eaeaea;
+  --color-item-menu-hover: #fff;
+  --color-phone: rgb(45, 46, 82);
+  --color-border-phone: #000;
+  --color-internal-block: #eeeeee;
+  --color-active-item-menu: #fff;
+  --color-shadows-01:rgba(0,0,0,0.12);
+  --color-shadows-02:rgba(0,0,0,0.24);
+  --guzkod-color-border: #eaeaea;
+}
+
+html[data-theme=dark] {
+  --background-color: #000000 ;
+  --control-color: #131313 ;
+  --block-color: #131313;
+  --item-color: #f15a24;
+  --color-font: #ffffff;
+  --color-border: #141414;
+  --color-item-menu-hover: #fff;
+  --color-phone: rgb(255, 251, 0);
+  --color-border-phone: #ffffff;
+  --color-internal-block: #2b2b2b;
+  --color-active-item-menu: #fff;
+  --color-shadows-01:rgba(255, 255, 255, 0.12);
+  --color-shadows-02:rgba(255, 255, 255, 0.24);
+  --guzkod-color-border: #252525;
+}
+
+html[data-theme=light-contrast] {
+  --background-color: #e9f6fc;
+  --control-color: #fdfcff;
+  --block-color: #ffffff;
+  --item-color: #f15a24;
+  --color-font: #000;
+  --color-border: #000000;
+  --color-item-menu-hover: #fff;
+  --color-phone: rgb(3, 3, 3);
+  --color-border-phone: #000;
+  --color-internal-block: #eeeeee;
+  --color-active-item-menu: #fff;
+  --color-shadows-01:#E9EBFA;
+  --color-shadows-02:rgba(156,166,230,.5);
+  --guzkod-color-border: #eaeaea;
+}
+html[data-theme=light-contrast] .color_lv_1-3 {
+  border-bottom: 1px solid var(--color-border-phone);
+}
+html[data-theme=light-contrast] .wrap-Specialists a {
+  border-bottom: 1px solid var(--color-border-phone);
+}
+html[data-theme=light-contrast] img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+html[data-theme=light-contrast] .contact,
+html[data-theme=light-contrast] .w__w {
+  border: 2px solid var(--color-border-phone);
+}
+
+html[data-theme=dark-contrast] {
+  --background-color: #0c0c0c;
+  --control-color: #1E1D1F;
+  --block-color: #121212;
+  --item-color: #f15a24;
+  --color-font: #ffffff;
+  --color-border: #ffffff;
+  --color-item-menu-hover: #fff;
+  --color-phone: rgb(255, 251, 0);
+  --color-border-phone: #ffffff;
+  --color-internal-block: #2b2b2b;
+  --color-active-item-menu: #fff;
+  --color-shadows-01:rgba(255, 255, 255, 0.12);
+  --color-shadows-02:rgba(255, 255, 255, 0.24);
+  --guzkod-color-border: #252525;
+}
+html[data-theme=dark-contrast] .color_lv_1-3 {
+  border-bottom: 1px solid var(--color-border-phone);
+}
+html[data-theme=dark-contrast] .wrap-Specialists a {
+  border-bottom: 1px solid var(--color-border-phone);
+}
+html[data-theme=dark-contrast] img {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+html[data-theme=dark-contrast] .contact,
+html[data-theme=dark-contrast] .w__w {
+  border: 2px solid var(--color-border-phone);
+}
+
+.menu_wrap::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: var(--item-color);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(left, #22ADD4, #1E98BA);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* цвет фона */
+.app {
+  color: var(--color-font);
+}
+
+.color_lv_0 {
+  background-color: var(--background-color);
+}
+
+/* цвет меню */
+.color_lv_1-1 {
+  background-color: var(--control-color);
+  outline: 1px solid var(--color-border);
+  box-shadow: 0 1px 3px var(--color-shadows-01), 0 1px 2px var(--color-shadows-02);
+}
+.color_lv_1-1 .btnmenu path {
+  stroke: var(--color-font);
+  fill: var(--color-font);
+}
+.color_lv_1-1 .menu_wrap {
+  background-color: var(--control-color);
+}
+.color_lv_1-1 .color_lv_1-3 {
+  color: var(--color-font);
+  transition-duration: 0.5s;
+}
+.color_lv_1-1 .color_lv_1-3 .arrow line {
+  stroke: var(--color-font);
+}
+.color_lv_1-1 .color_lv_1-3:hover {
+  color: var(--color-item-menu-hover);
+  background-color: var(--item-color);
+  transition-duration: 0.5s;
+}
+.color_lv_1-1 .color_lv_1-3:hover .arrow line {
+  stroke: var(--color-item-menu-hover);
+}
+.color_lv_1-1 .dropdown input:checked ~ label .color_lv_1-3 {
+  background-color: var(--item-color);
+  color: var(--color-active-item-menu);
+}
+
+/* цвет блоков новостей итп */
+.color_lv_1-2 {
+  background-color: var(--block-color);
+  position: relative;
+  border-radius: 12px;
+  border: 1px solid var(--guzkod-color-border);
+}
+
+.contact,
+.w__w {
+  background-color: var(--color-internal-block);
+}
+.contact span,
+.w__w span {
+  color: red;
+  font-weight: bold;
+}
+
+/* цвет кнопки */
+.color_lv_2-1:hover {
+  background-color: #2e0202;
+  color: aliceblue;
+  fill: aliceblue;
+}
+
+.namepdf {
+  color: var(--color-font);
+}
+
+.legend {
+  background-color: var(--block-color);
+  color: var(--color-font);
+}
+
+.phone {
+  color: var(--color-phone);
+}
+
+.usefulname {
+  color: var(--color-font);
+}
+
+.read__content {
+  background-color: var(--block-color);
+  box-shadow: 0 0 0 1px var(--color-shadows-01), 1px 2px 12px var(--color-shadows-02);
+}
+
+.home .photo_org_wrap img {
+  box-shadow: 0 0 0 1px var(--color-shadows-01), 1px 2px 12px var(--color-shadows-02);
+}
+
+svg {
+  enable-background: "new 0 0 396.7 252;";
+}
+
+.st0 {
+  fill: none;
+  stroke: none;
+}
+
+.st1 {
+  fill: #FFFFFF;
+  stroke: #F15A24;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+.st2 {
+  fill: #F15A24;
+}
+
+.st3 {
+  fill: #F15A24;
+  stroke: #F15A24;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+.st4 {
+  fill: none;
+  stroke: #F15A24;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+.st5 {
+  fill: #603813;
+}
+
+.st6 {
+  fill: #736357;
+}
+
+.st7 {
+  font-family: "Calibri-Bold";
+  fill: var(--color-font);
+}
+
+.st8 {
+  font-size: 32.1612px;
+}
+
+.st9 {
+  font-size: 26.2054px;
+}
+
+.st10 {
+  font-size: 29.7789px;
+}
+
+#NOK {
+  background-color: #ffffff;
+}
+
+.text__read::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: 0px -23px 8px -15px var(--block-color) inset;
+  -moz-box-shadow: 0px -23px 8px -15px var(--block-color) inset;
+  box-shadow: 0px -23px 8px -15px var(--block-color) inset;
+}
+
+/*# sourceMappingURL=%D0%A1olorScheme.css.map */

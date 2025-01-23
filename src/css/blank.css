@@ -1,0 +1,56 @@
+.wrap__blank{
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+
+}
+.blank{
+   
+    display: grid;
+   
+gap: 20px;
+}
+
+.avatar__per{
+    padding: 10px;
+    height: min-content;
+    width: min-content;
+    border-radius: 5px;
+    max-width: 100%;
+}
+.info__per{
+    border-radius: 5px;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info__per h2{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.name_per{
+text-align: center;
+padding: 10px;
+}
+.post__per{
+    padding: 20px;
+   
+}
+.education__per, .certificate__per, .qualification__per{
+    padding: 20px;
+}
+@media screen and (min-width: 500px) {
+    .blank{
+        width: 60%;
+        grid-template-columns: 1fr 3fr;
+    }
+   
+}
+@media screen and (max-width: 500px) {
+    .blank{
+        width: 100%;
+        justify-items: center;
+    }
+}

@@ -1,0 +1,19 @@
+.EditorPDF{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.form_pdf{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.form_pdf input, .form_pdf select{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(221, 221, 221);
+}

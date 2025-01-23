@@ -1,0 +1,45 @@
+
+.spinner-3 {
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(farthest-side, #ffa516 94%, rgba(0, 0, 0, 0)) top/8px 8px no-repeat, conic-gradient(rgba(0, 0, 0, 0) 30%, #ffa516);
+  -webkit-mask: radial-gradient(farthest-side, rgba(0, 0, 0, 0) calc(100% - 8px), #000 0);
+  animation: s3 1s infinite linear;
+}
+
+@keyframes s3 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+
+.wrap__Spinner {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.ntcn {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.ntcn span {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 10;
+}
+.ntcn img {
+  width: 100%;
+  height: 300px;
+}
+
+/*# sourceMappingURL=Spinner.css.map */

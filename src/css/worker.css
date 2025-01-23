@@ -1,0 +1,40 @@
+.worker__win {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.worker_in {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.worker_in form {
+    display: flex;
+    gap: 20px;
+}
+
+.worker_in form input {
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#work_pas{
+    background-color: rgb(240, 241, 252);
+}
+#work_btn{
+    background-color: blue;
+    color: aliceblue;
+}

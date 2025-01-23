@@ -1,0 +1,25 @@
+
+
+
+
+.listimg{
+    width: 100%;
+    height: 100%;
+
+  
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: flex;
+    gap: 20px;
+    
+    align-items: center; */
+   
+}
+.listimg-item img{
+    background-color: bisque;
+    width: calc(50% -10px);
+
+   
+ 
+
+}

@@ -1,0 +1,25 @@
+.Download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.Download a {
+    background-color: brown;
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    color: azure;
+    font-size: 30px;
+}
+.Specialists{
+   min-height: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}

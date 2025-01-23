@@ -1,0 +1,51 @@
+.Vacancies {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.ver__line {
+    height: 100%;
+    width: 800px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.ItemVacancies {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    height: min-content;
+    padding: 10px;
+    row-gap: 10px;
+    text-align: center;
+}
+
+.ItemVacancies h3 {
+    margin-bottom: 5px;
+
+}
+
+.ItemVacancies a {
+    text-decoration: none;
+}
+
+.ItemVacancies img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.barside-vacancies {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+
+    border-radius: 10px;
+}

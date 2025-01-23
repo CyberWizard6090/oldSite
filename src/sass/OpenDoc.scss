@@ -1,0 +1,75 @@
+.logo__doc {
+    svg {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.doc_item {
+    display: grid;
+    grid-template-columns: 30px 1fr 150px 150px;
+    padding: 5px 10px;
+    column-gap: 20px;
+  
+}
+
+.wrap_text_name {
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+
+    .text_name {
+        height: max-content;
+        font-weight: bold;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+
+.wrap__btn_download {
+    display: flex;
+    padding: 2px 20px;
+    background-color: rgb(255, 94, 0);
+    color: aliceblue;
+    border-radius: 22px;
+    justify-content: space-around;
+.wrap__name__download{
+    height: 30px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+}
+    .wrap_icon_download {
+        .icon_download {
+            svg {
+                width: 30px;
+                height: 30px;
+                path{
+                    stroke: currentColor;
+                }
+               
+            }
+        }
+    }
+}
+.wrap_btn_read{
+    display: flex;
+    padding: 2px 20px;
+    // background-color: rgb(255, 94, 0);
+    border: 2px solid rgb(255, 94, 0);
+    color: rgb(255, 94, 0);
+font-weight: bold;
+    border-radius: 22px;
+    justify-content: space-around;
+   .wrap_name_read {
+    height: 30px;
+    display: flex;
+    align-items: center;
+
+    }
+}
+.wrap_btn_read:hover{
+    background-color: rgb(255, 94, 0);
+    color: aliceblue;
+}

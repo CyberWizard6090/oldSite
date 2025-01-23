@@ -1,0 +1,23 @@
+@media screen and (min-width: 1000px) {
+    .information{
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas: ". ."
+        "map map";
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    .app{
+        font-size: 10px;
+    }
+    .blind{
+        display: none;
+    }
+    .information{
+        grid-template-columns: 1fr;
+        grid-template-areas: "."
+        "map";
+    }
+
+    
+}

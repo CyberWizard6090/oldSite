@@ -1,0 +1,183 @@
+@media (min-width: 1200px) {
+  .home {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    width: 100%;
+  }
+  .home .mainline {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    grid-auto-flow: row dense;
+    height: min-content;
+    padding: 30px;
+  }
+  .home .useful {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .home .href {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+  }
+  .home .usefulitem {
+    padding: 20px;
+    height: 300px;
+    max-height: 400px;
+    display: grid;
+    grid-template-rows: 3fr 3fr;
+    gap: 20px;
+  }
+  .home .usefulitem a {
+    width: 100%;
+    height: 100%;
+  }
+  .home .usefulitem .usefulimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .home .usefulitem .usefulimg img {
+    max-width: 90%;
+    max-height: 100%;
+    border-radius: 3px;
+  }
+  .home .usefulitem .usefulname {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: max(80%, 18px);
+  }
+  .home .photo_org_wrap {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .home .photo_org_wrap img {
+    width: 100%;
+    border-radius: 18px;
+  }
+  #Video {
+    grid-column: span 2;
+    padding: 20px;
+  }
+  #QR2 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+  .National {
+    padding: 20px;
+  }
+  #QR {
+    grid-row: span 2;
+    grid-column: span 2;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #GOSUSLUGI {
+    height: 100%;
+    overflow: hidden;
+    grid-column: span 3;
+    display: grid;
+  }
+  #map {
+    height: min-content;
+    grid-column: span 4;
+  }
+}
+@media (max-width: 767px) {
+  .home {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    width: 100vw;
+  }
+  .home .mainline {
+    padding: 10px;
+    width: calc(100vw - 20px);
+    max-width: 100%;
+    padding-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    height: min-content;
+  }
+  .home .useful {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    align-items: center;
+    /* padding-left: 5px;
+    padding-right: 5px; */
+  }
+  .home .href {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    width: calc(100% - 20px);
+    padding-bottom: 10px;
+  }
+  .home .usefulitem {
+    width: calc(100% - 40px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .home .usefulitem a {
+    width: 100%;
+    height: 100%;
+  }
+  .home .usefulitem .usefulimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .home .usefulitem .usefulimg img {
+    width: 90%;
+    max-width: 90%;
+    border-radius: 3px;
+  }
+  .home .usefulitem .usefulname {
+    width: 100%;
+    text-align: center;
+    font-size: max(80%, 18px);
+  }
+  .home .photo_org_wrap {
+    width: 100vw;
+  }
+  .home .photo_org_wrap img {
+    width: 100%;
+  }
+  .home #QR {
+    width: 100%;
+    overflow: hidden;
+  }
+  .home #QR img {
+    height: 100%;
+  }
+  .home #GOSUSLUGI {
+    overflow: hidden;
+    width: 100%;
+  }
+  .home #map {
+    overflow: hidden;
+    height: min-content;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=Home.css.map */

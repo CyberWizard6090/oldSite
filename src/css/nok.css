@@ -1,0 +1,48 @@
+#NOK{
+  background-color: rgb(255, 255, 255);
+    padding: 20px;
+    font-family: 'Arial';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap_banner{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.img_banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.img_banner img{
+    width: 50%;
+}
+.link_banner{
+    display: flex;
+    justify-content: center;
+}
+.name_banner{
+    color: #414141;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Arial';
+    margin-bottom: 10px;
+    text-align: center;
+}
+.link_banner a{
+    color: #414141;
+    text-decoration: none;
+    padding: 4px;
+    display: block;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Arial';
+    width: 83px;
+    height: 18px;
+    background-color: rgb(204, 216, 216);
+    cursor: pointer;
+}

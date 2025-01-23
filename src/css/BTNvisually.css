@@ -1,0 +1,130 @@
+.BTNvisually {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnview {
+  background-color: #ff0000;
+  width: calc(100% - 20px);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 12px;
+  /* border: 2px solid black; */
+  border: none;
+}
+.btnview svg {
+  height: 40px;
+  width: 40px;
+  fill: rgb(255, 255, 255);
+}
+
+.btnview:hover svg {
+  fill: gold;
+}
+
+.windows2 {
+  background-color: rgba(0, 0, 0, 0.733);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.windows2 span {
+  height: 20px;
+  width: 100%;
+  position: static;
+  right: 0;
+  top: 0;
+  color: gray;
+  text-align: right;
+  font-size: 14px;
+}
+.windows2 h3 {
+  color: #000000;
+}
+
+.settings_views {
+  width: 800px;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-rows: 20px 1fr 1fr 40px;
+  row-gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.item__radio {
+  display: flex;
+  background-color: #b1b0fa;
+}
+
+.wrapper {
+  display: inline-flex;
+  background: #fff;
+  height: 100px;
+  width: calc(100% - 40px);
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  padding: 20px 15px;
+  /* Checked */
+  /* Hover */
+}
+.wrapper .form_radio_btn {
+  display: inline-block;
+  margin-right: 10px;
+  width: 20%;
+}
+.wrapper .form_radio_btn input[type=radio] {
+  display: none;
+}
+.wrapper .form_radio_btn label {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  font-size: 18px;
+  -webkit-box-shadow: 0px 0px 15px -2px #000000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  color: #000000;
+}
+.wrapper .form_radio_btn input[type=radio]:checked + label {
+  background: #ed8c04;
+  color: #eaeaea;
+}
+.wrapper .form_radio_btn label:hover {
+  color: #080303;
+}
+
+#size1 {
+  font-size: 14px;
+}
+
+#size2 {
+  font-size: 20px;
+}
+
+#size3 {
+  font-size: 24px;
+}
+
+#size4 {
+  font-size: 28px;
+}
+
+/*# sourceMappingURL=BTNvisually.css.map */

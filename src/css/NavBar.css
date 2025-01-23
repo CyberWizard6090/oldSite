@@ -1,0 +1,65 @@
+.Nav a {
+  text-decoration: none;
+}
+
+.Nav {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+.nav_wrap {
+  padding-right: 10px;
+  width: calc(100% - 10px);
+  height: calc(100% - 20px);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.filling {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  width: calc(100% - 20px);
+}
+
+.filling img {
+  height: 100%;
+}
+
+.NavItem,
+.wrap-burger {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 50px;
+  min-width: 70px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.navNameItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 500px) {
+  .navNameItem {
+    margin-left: 10px;
+  }
+}
+
+/*# sourceMappingURL=NavBar.css.map */

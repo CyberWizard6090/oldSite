@@ -1,0 +1,168 @@
+
+/* цвет фона */
+.color_lv_0 {
+    background-color: rgb(245, 246, 247);
+}
+
+/* цвет меню */
+
+@media screen and (min-width: 500px) {
+    .color_lv_1-1 {
+        background-color: rgb(245, 246, 247);
+        backdrop-filter: blur(5px);
+        -webkit-box-shadow: 0px 0px 3px -1px rgba(0, 0, 0, 1);
+        -moz-box-shadow: 0px 0px 3px -1px rgba(0, 0, 0, 1);
+        box-shadow: 0px 0px 3px -1px rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .color_lv_1-1 {
+        background-color: #ffffff;
+        box-shadow: 0 0 2px rgba(233, 233, 233, 0.1), 0 2px 4px rgba(58, 66, 75, .2);
+    }
+}
+
+.color_lv_1-1 .color_lv_1-3 {
+    color: #000000;
+    transition-duration: 0.5s;
+}
+
+.color_lv_1-1 .color_lv_1-3:hover {
+    color: #ffffff;
+    background-color: rgb(255, 42, 0);
+    transition-duration: 0.5s;
+}
+
+/* цвет шапки */
+
+.color_lv_1-1h {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(239, 239, 239);
+    box-shadow: 0px 0px 3px -1px rgba(0, 0, 0, 0.425);
+}
+
+.color_lv_1-1h .color_lv_1-3,
+.filling {
+    color: rgb(0, 0, 0);
+
+    transition-duration: 0.5s;
+
+}
+
+.color_lv_1-1h .color_lv_1-3 {
+
+    background-color: rgb(255, 255, 255);
+    transition-duration: 0.5s;
+}
+
+.color_lv_1-1h .color_lv_1-3:hover {
+
+    background-color: rgb(223, 98, 73);
+    transition-duration: 0.5s;
+}
+
+.menu-btn>span,
+.menu-btn>span::before,
+.menu-btn>span::after {
+    background-color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+}
+
+/* .color_lv_1-1h .color_lv_1-3:hover .menu-btn>span,
+.color_lv_1-1h .color_lv_1-3:hover .menu-btn>span::before,
+.color_lv_1-1h .color_lv_1-3:hover .menu-btn>span::after {
+    background: #ffffff;
+} */
+
+
+
+/* цвет шапки */
+
+
+
+
+/* цвет при наведении элементов маршутизации*/
+.color_lv_1-3 {
+    transition-duration: 0.5s;
+
+}
+
+.color_lv_1-3:hover a {
+    color: #ffffff;
+
+}
+
+.color_lv_1-3:active {
+    background-color: rgb(0, 0, 0);
+}
+
+.bg-color .color_lv_1-3 {
+    /* background-color: #f83535; */
+    color: #e5eaf1;
+
+}
+
+/* цвет блоков новостей итп */
+.color_lv_1-2 {
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 10px;
+    /* border: 1px solid rgb(32, 29, 29); */
+    -webkit-box-shadow: 0px 0px 3px -1px rgba(0, 0, 0, 0.425);
+    -moz-box-shadow: 0px 0px 3px -1px rgba(0, 0, 0, 0.425);
+    box-shadow: 0px 0px 3px -1px rgba(0, 0, 0, 0.425);
+}
+
+/* цвет кнопки */
+.color_lv_2-1 {
+    background-color: rgb(0, 121, 211);
+    color: rgb(255, 255, 255);
+    fill: rgb(255, 255, 255);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.color_lv_2-1:hover {
+    background-color: #2e0202;
+    color: aliceblue;
+    fill: aliceblue;
+
+}
+
+.color_lv_2-2 {
+    background-color: hsl(0, 0%, 100%);
+    color: #000000;
+    z-index: 5;
+    box-shadow: 0 0 2px rgba(58, 66, 75, .1), 0 2px 4px rgba(58, 66, 75, .2);
+    font-weight: bold;
+    transition: 0.5s;
+    /* color: #000000; */
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.507), 0 2px 4px rgba(58, 66, 75, .2);
+
+}
+
+.color_lv_2-2:hover {
+    background-color: #ff7b00;
+    color: #cbf0ff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+.Footer {
+    background-color: #000000;
+}
+
+/* @media screen and (max-width: 500px)  {
+    .color_lv_1-1h{
+     
+        background:  #be3e22 ;
+        color: #8eeeee;
+      
+    }
+    /* .menu-btn > span,
+.menu-btn > span::before,
+.menu-btn > span::after {   background: #8eeeee;} */

@@ -1,0 +1,148 @@
+@media screen and (max-width:700px) {
+    .legend {
+        padding: 20px;
+    }
+
+}
+@media screen and (min-width:700px) {
+    #map {
+        cursor: pointer;
+        display: flex;
+    
+    
+        z-index: 3;
+        overflow: hidden;
+        position: relative;
+     
+    
+    }
+    
+   
+    
+    .legend {
+        font-size:   max(85%, 18px);
+        padding: 20px;
+        height: 100%;
+        width: 350px;
+        display: flex;
+        align-items: flex-start;
+    
+        flex-direction: column;
+        /* justify-content: center; */
+        z-index: 2;
+        left: 0
+        ;
+
+        position: absolute;
+        overflow-wrap: break-word;
+        gap: 10px;
+    }
+}
+.pbrm {
+    padding: 10px 20px 20px 20px;
+ 
+    line-height: 40px;
+    /* border: 2px solid rgb(0, 0, 0); */
+}
+
+.pbrm iframe {
+
+    border: 0;
+}
+
+.phone {
+  
+    font-size: 1.8rem;
+  
+    /* font-weight: bold; */
+}
+
+.information {
+    display: grid;
+    column-gap: 20px;
+ 
+    height: calc(100% - 40px);
+    width: calc(100% - 40px);
+    padding: 20px;
+  
+
+}
+
+#map iframe {
+    cursor: -webkit-grab;
+    cursor: grab;
+    z-index: 0;
+    border: 0;
+}
+
+
+.legend span {
+    background-color: rgb(224, 78, 34);
+    color: rgb(255, 255, 255);
+    /* padding: 2px; */
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.legend div {
+    display: flex;
+    gap: 10px;
+}
+
+.read {
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.wrap-read {
+    height: min-content;
+    /* min-height: calc(100vh - 100px); */
+    width: 60%;
+    display: grid;
+
+    padding: 10px;
+  
+    justify-items: center;
+    align-items: start;
+    row-gap: 20px;
+
+
+}
+
+.work-list {
+    height: 100%;
+    /* height: min-content; */
+}
+
+.wrap-con {
+    height: 100%;
+    overflow-y: auto;
+
+}
+
+.con-list,
+.work-list {
+    height: calc(100vh - 80px);
+    align-self: stretch;
+
+
+}
+wrap-about{
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    padding: 20px;
+}
+@media screen and (max-width: 500px) {
+    .wrap-read {
+        width: 100%;
+    }
+}

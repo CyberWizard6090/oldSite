@@ -1,0 +1,137 @@
+@font-face {
+	font-family: 'Norm'; 
+	src: url(./../asset/fonts/NormalidadCompact-Regular.ttf); 
+}
+@font-face {
+	font-family: 'NormalidadCompact'; 
+	src: url(./../asset/fonts/NormalidadCompact-Regular.ttf); 
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+::selection {
+  background: #000000;
+  /* Safari */
+  color: #fff;
+
+}
+.pdfs{
+ height: 100%;
+  width: 100%;
+
+}
+.pdfs iframe{
+ height: 100%;
+  width: 100%;
+
+}
+
+
+
+
+
+.Main {
+  font-family: NormalidadCompact;
+  grid-area: mn;
+  min-height: 700px;
+  width: 100%;
+ 
+  overflow: hidden;
+
+
+}
+
+.btn_clear {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+
+
+.working-block {
+  min-height: 400px;
+  padding: 10px;
+}
+
+.btn-s .btn-s {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 20px;
+  /* margin: 0 15px 15px 0; */
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  height: 40px;
+  line-height: 40px;
+
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  appearance: none;
+  touch-action: manipulation;
+  transition-duration: 0.5s;
+}
+
+.btn-s:active {
+  transform: scale(0.94);
+  transition-duration: 0.5s;
+}
+
+.btn-s:disabled {
+  pointer-events: none;
+  opacity: 0.65;
+}
+
+/* @media screen and (max-width: 500px){
+
+  
+  .app{
+    grid-template-areas: 
+    "hd hd"
+    "nb nb"
+    "mn mn"
+    "mn mn"
+    "fr fr";
+  }
+
+} */
+@media screen and (min-width: 500px) {
+  .Main {
+    grid-area: mn;
+    min-height: 700px;
+  
+  }
+
+  .Header {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Main {
+
+    min-height: 700px;
+    padding: 1px;
+  }
+
+  .Header {
+    font-size: 20px;
+  }
+}

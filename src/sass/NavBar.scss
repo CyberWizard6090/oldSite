@@ -1,0 +1,99 @@
+$h: calc(100% - 20px);
+
+.Nav a {
+    text-decoration: none;
+}
+
+.Nav {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+.nav_wrap {
+    padding-right: 10px;
+    width: calc(100% - 10px);
+    height: $h;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    column-gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.filling {
+    padding: 5px;
+    display: flex;
+
+    align-items: center;
+    height: 70px;
+    width: $h;
+
+
+}
+
+.filling img {
+
+    height: 100%;
+
+}
+
+// .filling,
+// .NavItem,
+// .wrap-burger {
+//     height: 100%;
+// }
+
+
+// .NavItem{
+//     height: 100%;
+// }
+
+// .nav_wrap a {
+//     height: 90%;
+
+// }
+
+.NavItem,
+.wrap-burger {
+
+ 
+    padding-left: 10px;
+    padding-right: 10px;
+
+height: 50px;
+    min-width: 70px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.navIcon {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.navNameItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+  
+
+
+}
+
+
+
+@media screen and (min-width: 500px) {
+    .navNameItem {
+        margin-left: 10px;
+
+    }
+
+}
